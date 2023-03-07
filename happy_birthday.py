@@ -34,20 +34,20 @@ banner2 = """
 
 stream = (banner1, banner2)
 
-print random.choice(stream)
+print (random.choice(stream))
 time.sleep(1)
 
 
 def happy_birthday():
 
     first_name = raw_input("\n[+] First name: ")
-    print "\n"
+    print ("\n")
 
     happy = "Happy Birthday to You.."
 
-    print "###########################################"
-    print "\t" + "Happy Birthday " + (first_name.capitalize())
-    print "###########################################\n"
+    print ("###########################################")
+    print ("\t" + "Happy Birthday " + (first_name.capitalize()))
+    print ("###########################################\n")
     time.sleep(2)
 
     for x in range(2):
@@ -56,19 +56,19 @@ def happy_birthday():
         print(happy)
         time.sleep(1.5)
 
-        print "Happy Birthday", first_name.capitalize(), "..!"
+        print ("Happy Birthday", first_name.capitalize(), "..!")
         time.sleep(1)
         print(happy) + "\n"
         time.sleep(1)
 
         for x in range(3):
-            print "Hip Hip Hooray..!\n"
+            print ("Hip Hip Hooray..!\n")
             time.sleep(1)
 
-    print "\t###########################################"
-    print "\t\tHappy Birthday", first_name.capitalize(), "..!"
-    print "\t\tHave some fun today :) "
-    print "\t###########################################\n"
+    print ("\t###########################################")
+    print ("\t\tHappy Birthday", first_name.capitalize(), "..!")
+    print ("\t\tHave some fun today :) ")
+    print ("\t###########################################\n")
 
 
 happy_birthday()
