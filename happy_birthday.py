@@ -58,7 +58,8 @@ def happy_birthday():
 
         print ("Happy Birthday", first_name.capitalize(), "..!")
         time.sleep(1)
-        print(happy) + "\n"
+        print(happy)  
+        print("\n")
         time.sleep(1)
 
         for x in range(3):
