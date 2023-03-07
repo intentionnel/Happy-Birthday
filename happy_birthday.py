@@ -40,7 +40,7 @@ time.sleep(1)
 
 def happy_birthday():
 
-    first_name = raw_input("\n[+] First name: ")
+    first_name = input("\n[+] First name: ")
     print ("\n")
 
     happy = "Happy Birthday to You.."
