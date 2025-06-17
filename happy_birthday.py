@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # This Python file uses the following encoding: utf-8
 # Happy Birthday
 
@@ -34,8 +34,10 @@ banner2 = """
 
 stream = (banner1, banner2)
 
-print (random.choice(stream))
-time.sleep(1)
+def main():
+    print(random.choice(stream))
+    time.sleep(1)
+    happy_birthday()
 
 
 def happy_birthday():
@@ -72,4 +74,6 @@ def happy_birthday():
     print ("\t###########################################\n")
 
 
-happy_birthday()
+
+if __name__ == "__main__":
+    main()
